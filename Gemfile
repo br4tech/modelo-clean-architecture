@@ -10,3 +10,8 @@ gem 'sinatra-activerecord'
 gem 'sqlite'
 gem 'sqlite3'
 gem 'dotenv'
+
+
+github 'sinatra/sinatra' do 
+  gem 'sinatra-contrib'
+end
