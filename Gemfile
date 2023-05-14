@@ -4,14 +4,9 @@ source 'https://rubygems.org'
 
 git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 
+gem 'dotenv'
 gem 'rake'
 gem 'sinatra'
 gem 'sinatra-activerecord'
 gem 'sqlite'
 gem 'sqlite3'
-gem 'dotenv'
-
-
-github 'sinatra/sinatra' do 
-  gem 'sinatra-contrib'
-end

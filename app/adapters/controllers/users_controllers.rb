@@ -1,6 +1,8 @@
+# frozen_string_literal: true
+
 require './app/usecases/users/create'
 
-class UsersController 
+class UsersController
   def self.create(params)
     Users::Create.new(params).call
   end
